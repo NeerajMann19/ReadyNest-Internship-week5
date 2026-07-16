@@ -1,0 +1,21 @@
+CustomerID,InvoiceNo,PurchaseDate,CustomerName,Email,City,Country,Product,Category,Quantity,UnitPrice,TotalAmount
+10001,INV10001,2025-01-05,John Smith,john.smith@gmail.com,London,United Kingdom,Laptop Stand,Furniture,2,39.99,79.98
+10002,INV10002,2025-01-06,Emma Johnson,emma.johnson@gmail.com,Manchester,United Kingdom,Wireless Mouse,Electronics,1,24.99,24.99
+10003,INV10003,2025-01-08,Liam Brown,liam.brown@gmail.com,Birmingham,United Kingdom,Mechanical Keyboard,Electronics,1,89.5,89.5
+10004,INV10004,2025-01-10,Olivia Davis,olivia.davis@gmail.com,Leeds,United Kingdom,Office Chair,Furniture,1,219.0,219.0
+10005,INV10005,2025-01-11,Noah Wilson,noah.wilson@gmail.com,Liverpool,United Kingdom,USB-C Hub,Electronics,3,34.99,104.97
+10006,INV10006,2025-01-13,Sophia Miller,sophia.miller@gmail.com,Glasgow,United Kingdom,Notebook Pack,Stationery,10,4.25,42.5
+10007,INV10007,2025-01-14,James Taylor,james.taylor@gmail.com,Edinburgh,United Kingdom,Desk Lamp,Home,2,29.9,59.8
+10008,INV10008,2025-01-15,Charlotte Anderson,charlotte.anderson@gmail.com,Bristol,United Kingdom,Noise Cancelling Headphones,Electronics,1,179.0,179.0
+10001,INV10009,2025-02-01,John Smith,john.smith@gmail.com,London,United Kingdom,Monitor 27 inch,Electronics,1,289.0,289.0
+10003,INV10010,2025-02-03,Liam Brown,liam.brown@gmail.com,Birmingham,United Kingdom,Laptop Backpack,Accessories,1,59.0,59.0
+10009,INV10011,2025-02-05,Ava Thomas,ava.thomas@gmail.com,Cardiff,United Kingdom,Coffee Mug,Home,6,8.99,53.94
+10010,INV10012,2025-02-08,William Moore,william.moore@gmail.com,York,United Kingdom,External SSD 1TB,Electronics,2,129.0,258.0
+10011,INV10013,2025-02-10,Mia Jackson,mia.jackson@gmail.com,Oxford,United Kingdom,Whiteboard,Office,1,74.99,74.99
+10012,INV10014,2025-02-12,Benjamin Martin,ben.martin@gmail.com,Cambridge,United Kingdom,Webcam HD,Electronics,2,64.99,129.98
+10013,INV10015,2025-02-15,Isabella Lee,isabella.lee@gmail.com,Newcastle,United Kingdom,Standing Desk,Furniture,1,399.0,399.0
+10014,INV10016,2025-02-18,Lucas Harris,lucas.harris@gmail.com,Sheffield,United Kingdom,Gaming Mouse,Electronics,2,49.99,99.98
+10015,INV10017,2025-02-20,Amelia Clark,amelia.clark@gmail.com,Nottingham,United Kingdom,Printer Paper,Office,20,5.99,119.80000000000001
+10016,INV10018,2025-02-22,Henry Lewis,henry.lewis@gmail.com,Southampton,United Kingdom,Ink Cartridge,Office,4,32.5,130.0
+10017,INV10019,2025-02-24,Evelyn Walker,evelyn.walker@gmail.com,Brighton,United Kingdom,Bluetooth Speaker,Electronics,2,79.0,158.0
+10018,INV10020,2025-02-28,Daniel Hall,daniel.hall@gmail.com,Leicester,United Kingdom,Ergonomic Mouse,Electronics,1,44.99,44.99

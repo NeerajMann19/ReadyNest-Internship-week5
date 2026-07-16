@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+.env.*
+!.env.example
+.env.local
+.env.*.local
+
+# FastAPI / Alembic
+alembic.ini
+instance/
+
+# Node
+node_modules/
+dist/
+tmp/
+out/
+build/
+.npm
+package-lock.json
+
+# Vite / TypeScript
+.vite/
+*.tsbuildinfo
+
+# Project Directories to Ignore Content but Keep Directory
+uploads/raw/*
+uploads/cleaned/*
+uploads/temp/*
+!uploads/raw/.gitkeep
+!uploads/cleaned/.gitkeep
+!uploads/temp/.gitkeep
+
+reports/pdf/*
+reports/json/*
+reports/images/*
+!reports/pdf/.gitkeep
+!reports/json/.gitkeep
+!reports/images/.gitkeep
+
+models/saved/*
+models/metadata/*
+!models/saved/.gitkeep
+!models/metadata/.gitkeep
+
+backend/logs/*
+!backend/logs/.gitignore
+
+# IDE / Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp

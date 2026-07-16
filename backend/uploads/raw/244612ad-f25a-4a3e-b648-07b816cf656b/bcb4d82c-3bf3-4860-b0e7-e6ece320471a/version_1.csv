@@ -1,0 +1,5 @@
+id,name,score,active,joined_date
+1,Alice,95,True,2026-01-01
+2,Bob,88,False,2026-01-02
+3,Charlie,92,True,2026-01-03
+4,Dave,75,False,2026-01-04

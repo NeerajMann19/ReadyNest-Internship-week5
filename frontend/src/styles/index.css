@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #08090B;      /* Prism IQ Primary Background */
+  --bg-secondary: #111827;    /* Prism IQ Secondary Background */
+  --bg-surface: #1A1D24;      /* Prism IQ Surface Background */
+  --border-color: #2D3139;    /* Prism IQ Subtle border */
+  --text-primary: #F8FAFC;    /* Inter Primary text */
+  --text-secondary: #94A3B8;  /* Inter Secondary text */
+  --brand-blue: #3B82F6;      /* Prism Blue */
+  --brand-violet: #8B5CF6;    /* Prism Violet */
+  --accent-cyan: #06B6D4;     /* Accent Cyan */
+  --status-success: #22C55E;  /* Success */
+  --status-warning: #F59E0B;  /* Warning */
+  --status-danger: #EF4444;   /* Danger */
+  --status-info: #60A5FA;     /* Info */
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Grotesk', 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+code, pre, .font-mono {
+  font-family: 'JetBrains Mono', monospace !important;
+}
+
+/* Custom scrollbar for premium dark UI */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
+
+/* Glassmorphism custom classes */
+.glass-panel {
+  background: var(--bg-surface);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border-color);
+}
