@@ -12,7 +12,7 @@ ENV/
 .env.*.local
 
 # FastAPI / Alembic
-alembic.ini
+!alembic.ini
 instance/
 
 # Node
