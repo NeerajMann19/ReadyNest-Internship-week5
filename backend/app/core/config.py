@@ -30,6 +30,7 @@ class Settings(BaseSettings):
         "http://127.0.0.1:3000",
         "http://localhost:5173",
         "http://127.0.0.1:5173",
+        "https://prism-iq.vercel.app",  # Placeholder Vercel production URL — replace with real URL after Vercel deployment
     ]
 
     @field_validator("BACKEND_CORS_ORIGINS", mode="before")
